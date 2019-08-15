@@ -1,4 +1,4 @@
-$(document).ready(function(){   
+jQuery(document).ready(function(){   
   $("a").on('click', function(event) {
 	  
     if (this.Link !== "") {
