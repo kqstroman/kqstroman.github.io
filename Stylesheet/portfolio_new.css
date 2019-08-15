@@ -4,8 +4,8 @@ html {
 
 body {
 	margin: 0%; 
-    opacity: 1; 
-    transition: 3s opacity; 
+  opacity: 1; 
+  transition: 3s opacity; 
 	letter-spacing: .2vw;
 	font-family: Avant Garde, Helvetica; 
 	font-size: 1.5vw;
@@ -13,8 +13,8 @@ body {
 }
 
 body.fade-out {
-    opacity: .1; 
-    transition: none;
+  opacity: .1; 
+  transition: none;
 }
 
 .Navbar {
@@ -24,8 +24,8 @@ body.fade-out {
 	top: 0; 
 	width: 100%;
 	z-index: 1; 
-    position: fixed;
-    animation: moveNav 5s;
+  position: fixed;
+  animation: moveNav 5s;
 }
 
 .Navbar a {
@@ -37,8 +37,8 @@ body.fade-out {
 	font-family: Avant Garde, Helvetica; 
 	font-size: 1.5vw; 
 	text-align: center; 
-    position: relative;
-    animation: movenavText 5.75s;
+  position: relative;
+  animation: movenavText 5.75s;
 	letter-spacing: .2vw;
 }
 
@@ -79,8 +79,8 @@ body.fade-out {
     }
 }
 
-#Typing_Video {
-	position: fixed; /
+#Globe_Video {
+	position: fixed; 
 	right: 0; 
 	bottom: 0; 
 	min-height: 100%; 
@@ -96,24 +96,19 @@ body.fade-out {
 	padding-top: .1vh; 
 	padding-bottom: 1vh;
 	margin-top: 23%;
-    position: relative;
+  position: relative;
 	-webkit-animation: moveNav 4s; /* Safari 4.0 - 8.0 */
-    animation: movevideoText 4s;
+  animation: movevideoText 4s;
 }
 
 #Slideshow_Background {
   background:rgba(255,255,255, 0.35); 
-  }
-
+}
 
 .mySlides {
 	display: none;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 @keyframes fade {
   from {opacity: .4} 
@@ -126,7 +121,6 @@ body.fade-out {
   padding-top: 4%;
   position: relative;
   margin: auto;
-
 }
 
 .Slide_Show_Images {
@@ -186,7 +180,7 @@ body.fade-out {
   font-size: 1.5vw;
   font-weight: bold;
   display: none;
-  }
+}
 
 .dot {
   cursor: pointer;
@@ -206,8 +200,6 @@ body.fade-out {
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;  
 }
@@ -264,12 +256,10 @@ center {
 	padding-right: 5vw;
 }
 
-/* Anchor elements */
 a {
 	color: blue; 
 }
 
-/* Quotation elements */
 q {
 	font-style: italic;
 	font-weight: bold;
@@ -277,10 +267,10 @@ q {
 
 img {
 	filter: grayscale(75%);
-    border-radius: 8px; 
-    max-width: 100%; 
+  border-radius: 8px; 
+  max-width: 100%; 
 	height: 100%;
-    margin: auto auto auto auto;
+  margin: auto auto auto auto;
 	display: block;	
 }
 
@@ -291,7 +281,7 @@ center:hover {
 
 p:hover {
 	color: #00004d;	
-    transition: transform 1s;
+  transition: transform 1s;
 	transform: scale(1.01);
 }
 
@@ -303,7 +293,7 @@ h1:hover {
 
 img:hover {
 	filter: grayscale(5%); 
-    transition: transform 1s;
+  transition: transform 1s;
 	transform: scale(1.1);
 }
 
@@ -321,7 +311,6 @@ img:hover {
   border: solid;
   cursor: pointer;
   position: fixed;
-  -webkit-animation: movePopup 5s;
   animation: movePopup 5s;
 }
 
@@ -378,7 +367,6 @@ button {
 button:hover, .form-container .btn:hover{
   color: white;
   background-color: black;
-  -webkit-transition-duration: 1s; 
   transition-duration: 1s;
   border-style: solid;
   border-color: silver;
@@ -387,7 +375,6 @@ button:hover, .form-container .btn:hover{
 .form-container .cancel:hover{
   color: white;
   background-color: darkred;
-  -webkit-transition-duration: 1s; 
   transition-duration: 1s;
   border-style: solid;
   border-color: black;
